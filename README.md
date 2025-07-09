@@ -1,3 +1,41 @@
+# Lexisg-frontend-intern-test
+
+This is a simulated legal assistant frontend interface built for the Lexi internship assignment. The app allows users to submit a legal query and receive an AI-generated answer along with citations from supporting legal documents. Each citation links directly to the relevant part of the source PDF, improving transparency and traceability.
+
+---
+
+## 🚀 Live Demo
+
+🔗 [Click here to view the hosted app](https://lexisg-frontend-intern.netlify.app/)
+
+---
+
+## 🛠 Tech Stack
+
+- ⚛️ **React.js** – Frontend framework
+- 🎨 **React-Bootstrap** – For clean UI components
+- 💨 **Tailwind CSS** (optional) – For styling flexibility
+- 📄 **PDF.js** – To render PDF documents with paragraph highlighting
+
+---
+
+## 📦 How to Run the Project Locally
+
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/Lexisg-frontend-intern-test.git
+
+# Navigate to the project directory
+cd Lexisg-frontend-intern-test
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
+
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
