@@ -12,30 +12,62 @@ This is a simulated legal assistant frontend interface built for the Lexi intern
 
 ## 🛠 Tech Stack
 
-- ⚛️ **React.js** – Frontend framework
-- 🎨 **React-Bootstrap** – For clean UI components
-- 💨 **Tailwind CSS** (optional) – For styling flexibility
-- 📄 **PDF.js** – To render PDF documents with paragraph highlighting
+- ⚛️ **React.js** – Frontend library
+- 🎨 **React-Bootstrap** – UI components
+- 💨 **Tailwind CSS** (optional) – Utility-first styling
+- 📄 **PDF.js** – PDF viewing and search/highlight
 
 ---
 
 ## 📦 How to Run the Project Locally
 
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/Lexisg-frontend-intern-test.git
+Follow these steps to run the project on your local machine:
 
-# Navigate to the project directory
+```bash
+# 1. Clone the repository
+
+
+# 2. Navigate into the project directory
 cd Lexisg-frontend-intern-test
 
-# Install dependencies
+# 3. Install all dependencies
 npm install
 
-# Start the development server
+# 4. Start the development server
 npm run dev
+```
+# Citation Linking Explained
+When a user submits a legal query:
+
+The app sends the query to a mock API (simulateLegalQueryAPI).
+
+The simulated response includes:
+
+An AI-generated legal answer
+
+One or more citation excerpts
+
+Each citation includes:
+
+📄 Source file name
+
+🔗 Link to the PDF
+
+🔍 A PDF.js viewer that:
+
+Opens the document in a new tab
+
+Scrolls to the expected page
+
+Highlights relevant terms using #search query
+# Screenshot
+![Screenshot 2025-07-09 102951](https://github.com/user-attachments/assets/0f79f1b5-64b4-4400-991c-a25df9c97ece)
+![Screenshot 2025-07-09 103023](https://github.com/user-attachments/assets/27877e37-45c7-4a23-82b8-7fc63c868b84)
+![Screenshot 2025-07-09 103051](https://github.com/user-attachments/assets/cb086190-6722-42f7-a605-b5e14f5468cf)
 
 
 
+#
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -48,3 +80,4 @@ Currently, two official plugins are available:
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
